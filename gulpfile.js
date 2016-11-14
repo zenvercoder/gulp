@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var mocha = require('gulp-mocha');
+var cssnano = require('gulp-cssnano');
 
 
 // now this will run styles and then default which is hello
@@ -17,6 +18,8 @@ gulp.task('styles', function() {
     return gulp.src('./src/styles/**/*.scss')
         // take the files we source and pipe them
         .pipe(sass().on('error', sass.logError))
+        // minified css text
+        .pipe(cssnano())
         // then pipe them to destination file
         .pipe(gulp.dest('./dest'));
 });

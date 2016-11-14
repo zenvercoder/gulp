@@ -20,6 +20,11 @@
 * [gulp-sass docs](https://www.npmjs.com/package/gulp-sass)
 * [gulp docs](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
+* [gulp-cssnano docs](https://www.npmjs.com/package/gulp-cssnano)
+* `npm install gulp-cssnano --save-dev`
+* `var cssnano = require('gulp-cssnano');`
+
+
 
 ### Testing Code 
 
