@@ -1,0 +1,19 @@
+{
+  "name": "Gulp",
+  "version": "1.0.0",
+  "description": "* It's a task runner. Takes tasks and runs them * It can source files to give to a task to be run * Puts results in a destination file * Like Grunt (entirely through configuration objects, gulp entirely through code) * Also like Maven, npm scripts, make",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "dev": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
