@@ -1,6 +1,12 @@
 $color: cyan;
 
 body {
-  background-color: $color;
+  color: $color;
+  background-color: mix($color, black);
+  > div {
+    > ul > li {
+      color: mix($color, white);
+    }
+  }
   border-color: $color;
 }
